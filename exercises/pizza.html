@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+	
+	<script>
+		var numbers = [];
+        var current_number = parseFloat(prompt('Insert a number:'));
+        while (current_number != -1){
+            numbers.push(current_number);
+            current_number = parseFloat(prompt('Insert a number:'));
+        }
+        for (var i=0; i<numbers.length; i++){
+            alert(numbers[i]*2);
+        }
+    </script>
+</head>
+<body>
+</body>
+</html>
